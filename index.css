@@ -21,6 +21,10 @@ body {
     color: white;    /* color del text */
     background-color: #950E17;    /* color de fons */
 }
+
+  #menu {
+    display: flex;    /* el menú és un contenidor de tipus flex */
+    height: 8vmax;
 }
 #menu i{
     flex: 1;    /* cada botó pretén ocupar tot l'espai disponible */
@@ -32,3 +36,4 @@ body {
     font-size: 5vmax;
     cursor: pointer;    /* en ordinadors, indica que s'hi pot fer clic */
 }
+
