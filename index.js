@@ -19,7 +19,7 @@ function canvia_seccio(num_boto) {
 
 let validat = false;    // variable que permet saber si hi ha algun usuari validat
 let nom, contrasenya;
-let scriptURL = "https://script.google.com/.../exec"    // s'ha de substituir la cadena de text per la URL del script
+let scriptURL = "https://script.google.com/macros/s/AKfycbwN5SwheA58TgfT1Cdt2O0DieBwhZb0fab6P8rY99mvT__Ru2U6Yfu6aJWp76v58QaZmQ/exec"    // s'ha de substituir la cadena de text per la URL del script
 
 function inici_sessio() {
     nom = document.getElementById("nom_usuari").value;    // la propietat "value" d'un quadre de text correspon al text escrit per l'usuari
